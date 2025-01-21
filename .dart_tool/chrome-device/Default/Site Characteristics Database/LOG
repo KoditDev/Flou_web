@@ -1,2 +1,15 @@
-2025/01/21-00:13:51.824 5404 Reusing MANIFEST C:\Users\johnd\AppData\Local\Temp\flutter_tools.d1749612\flutter_tools_chrome_device.5bd5931d\Default\Site Characteristics Database/MANIFEST-000001
-2025/01/21-00:13:51.827 21ac Moved #8 to level-1 193 bytes OK: files[ 3 1 0 0 0 0 0 ]
+2025/01/21-00:29:55.105 238c Reusing MANIFEST C:\Users\johnd\AppData\Local\Temp\flutter_tools.c19170b8\flutter_tools_chrome_device.4a144ddc\Default\Site Characteristics Database/MANIFEST-000001
+2025/01/21-00:29:55.106 2ac8 Compacting 2@0 + 0@1 files
+2025/01/21-00:29:55.110 2ac8 Generated table #16@0: 1 keys, 165 bytes
+2025/01/21-00:29:55.110 2ac8 Compacted 2@0 + 0@1 files => 165 bytes
+2025/01/21-00:29:55.112 2ac8 compacted to: files[ 4 1 0 0 0 0 0 ]
+2025/01/21-00:29:55.113 2ac8 Delete type=2 #8
+2025/01/21-00:29:55.113 2ac8 Delete type=2 #12
+2025/01/21-00:29:55.114 2ac8 Compacting 4@0 + 0@1 files
+2025/01/21-00:29:55.117 2ac8 Generated table #17@0: 1 keys, 130 bytes
+2025/01/21-00:29:55.117 2ac8 Compacted 4@0 + 0@1 files => 130 bytes
+2025/01/21-00:29:55.120 2ac8 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/01/21-00:29:55.121 2ac8 Delete type=2 #4
+2025/01/21-00:29:55.121 2ac8 Delete type=2 #6
+2025/01/21-00:29:55.121 2ac8 Delete type=2 #7
+2025/01/21-00:29:55.121 2ac8 Delete type=2 #11
