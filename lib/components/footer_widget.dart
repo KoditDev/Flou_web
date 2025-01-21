@@ -44,7 +44,7 @@ Widget build(BuildContext context) {
   final screenHeight = MediaQuery.of(context).size.height;
 
   return Padding(
-    padding: const EdgeInsets.only(top: 0.0), // Margen superior de 40 píxeles
+    padding: const EdgeInsets.only(top: 100.0), // Margen superior de 40 píxeles
     child: SingleChildScrollView(
       child: Column(
         mainAxisSize: MainAxisSize.min,
