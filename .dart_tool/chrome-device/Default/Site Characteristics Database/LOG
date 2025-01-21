@@ -1,18 +1,20 @@
-2025/01/21-00:40:04.000 5368 Reusing MANIFEST C:\Users\johnd\AppData\Local\Temp\flutter_tools.492479ae\flutter_tools_chrome_device.b4c3aea1\Default\Site Characteristics Database/MANIFEST-000001
-2025/01/21-00:40:04.001 3728 Compacting 4@0 + 0@1 files
-2025/01/21-00:40:04.004 3728 Generated table #24@0: 1 keys, 165 bytes
-2025/01/21-00:40:04.004 3728 Compacted 4@0 + 0@1 files => 165 bytes
-2025/01/21-00:40:04.005 3728 compacted to: files[ 5 1 0 0 0 0 0 ]
-2025/01/21-00:40:04.006 3728 Delete type=2 #8
-2025/01/21-00:40:04.006 3728 Delete type=2 #16
-2025/01/21-00:40:04.006 3728 Delete type=2 #19
-2025/01/21-00:40:04.006 3728 Delete type=2 #21
-2025/01/21-00:40:04.007 3728 Compacting 5@0 + 0@1 files
-2025/01/21-00:40:04.010 3728 Generated table #25@0: 1 keys, 130 bytes
-2025/01/21-00:40:04.010 3728 Compacted 5@0 + 0@1 files => 130 bytes
-2025/01/21-00:40:04.012 3728 compacted to: files[ 0 2 0 0 0 0 0 ]
-2025/01/21-00:40:04.012 3728 Delete type=2 #4
-2025/01/21-00:40:04.012 3728 Delete type=2 #6
-2025/01/21-00:40:04.012 3728 Delete type=2 #7
-2025/01/21-00:40:04.012 3728 Delete type=2 #17
-2025/01/21-00:40:04.012 3728 Delete type=2 #18
+2025/01/21-00:56:11.818 37ec Reusing MANIFEST C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/MANIFEST-000001
+2025/01/21-00:56:11.819 38f4 Compacting 5@0 + 0@1 files
+2025/01/21-00:56:11.822 38f4 Generated table #33@0: 1 keys, 165 bytes
+2025/01/21-00:56:11.823 38f4 Compacted 5@0 + 0@1 files => 165 bytes
+2025/01/21-00:56:11.824 38f4 compacted to: files[ 6 1 0 0 0 0 0 ]
+2025/01/21-00:56:11.824 38f4 Delete type=2 #8
+2025/01/21-00:56:11.825 38f4 Delete type=2 #16
+2025/01/21-00:56:11.825 38f4 Delete type=2 #24
+2025/01/21-00:56:11.825 38f4 Delete type=2 #27
+2025/01/21-00:56:11.825 38f4 Delete type=2 #29
+2025/01/21-00:56:11.825 38f4 Compacting 6@0 + 0@1 files
+2025/01/21-00:56:11.829 38f4 Generated table #34@0: 1 keys, 130 bytes
+2025/01/21-00:56:11.829 38f4 Compacted 6@0 + 0@1 files => 130 bytes
+2025/01/21-00:56:11.831 38f4 compacted to: files[ 0 2 0 0 0 0 0 ]
+2025/01/21-00:56:11.831 38f4 Delete type=2 #4
+2025/01/21-00:56:11.831 38f4 Delete type=2 #6
+2025/01/21-00:56:11.831 38f4 Delete type=2 #7
+2025/01/21-00:56:11.831 38f4 Delete type=2 #17
+2025/01/21-00:56:11.831 38f4 Delete type=2 #25
+2025/01/21-00:56:11.831 38f4 Delete type=2 #26

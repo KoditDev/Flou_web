@@ -58,414 +58,108 @@ class _CarruselWidgetState extends State<CarruselWidget>
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisSize: MainAxisSize.max,
-      children: [
-        Flex(
-          direction: Axis.horizontal,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(4).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Herramientas Metálicas:\nSiempre desinfectadas,\ngarantizando tu tranquilidad.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+    return SizedBox(
+      height: 250.0, // Altura fija para el carrusel
+      child: ClipRect(
+        child: OverflowBox(
+          maxWidth: double.infinity,
+          alignment: Alignment.centerLeft,
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(4).png',
+                text: 'Herramientas Metálicas:\nSiempre desinfectadas,\ngarantizando tu tranquilidad.',
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(5).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Herramientas Desechables:\nTodo exclusivo para ti,\nnuevo y seguro.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(5).png',
+                text: 'Herramientas Desechables:\nTodo exclusivo para ti,\nnuevo y seguro.',
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(6).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Equipo de Protección\n en nuestro personal.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(6).png',
+                text: 'Equipo de Protección\n en nuestro personal.',
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(7).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Higiene del Área:\nEspacios impecables\npara tu confianza.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(7).png',
+                text: 'Higiene del Área:\nEspacios impecables\npara tu confianza.',
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(8).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Kit Personalizado:\nDiseñado solo para ti,\ncomodidad y seguridad.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(8).png',
+                text: 'Kit Personalizado:\nDiseñado solo para ti,\ncomodidad y seguridad.',
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(9).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Te recibimos con atención especial,\n¡te lo mereces!',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(9).png',
+                text: 'Te recibimos con atención especial,\n¡te lo mereces!',
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(10).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Mientras te atendemos,\nconoceras los beneficios\nde nuestro servicio.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(10).png',
+                text: 'Mientras te atendemos,\nconoceras los beneficios\nde nuestro servicio.',
               ),
-            ),
-          ],
+              // Repetir los elementos para la animación continua
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(4).png',
+                text: 'Herramientas Metálicas:\nSiempre desinfectadas,\ngarantizando tu tranquilidad.',
+              ),
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(5).png',
+                text: 'Herramientas Desechables:\nTodo exclusivo para ti,\nnuevo y seguro.',
+              ),
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(6).png',
+                text: 'Equipo de Protección\n en nuestro personal.',
+              ),
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(7).png',
+                text: 'Higiene del Área:\nEspacios impecables\npara tu confianza.',
+              ),
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(8).png',
+                text: 'Kit Personalizado:\nDiseñado solo para ti,\ncomodidad y seguridad.',
+              ),
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(9).png',
+                text: 'Te recibimos con atención especial,\n¡te lo mereces!',
+              ),
+              _buildCarruselItem(
+                imagePath: 'assets/images/Diseo_sin_ttulo_(10).png',
+                text: 'Mientras te atendemos,\nconoceras los beneficios\nde nuestro servicio.',
+              ),
+            ].divide(const SizedBox(width: 10.0)), // Espacio entre elementos
+          ).animateOnPageLoad(animationsMap['rowOnPageLoadAnimation']!),
         ),
-        Flex(
-          direction: Axis.horizontal,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(4).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Herramientas Metálicas:\nSiempre desinfectadas,\ngarantizando tu tranquilidad.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
+      ),
+    );
+  }
+
+  Widget _buildCarruselItem({required String imagePath, required String text}) {
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(8.0),
+            child: Image.asset(
+              imagePath,
+              width: 200.0,
+              height: 150.0,
+              fit: BoxFit.contain,
             ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(5).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Herramientas Desechables:\nTodo exclusivo para ti,\nnuevo y seguro.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(6).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Equipo de Protección\n en nuestro personal.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(7).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Higiene del Área:\nEspacios impecables\npara tu confianza.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(8).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Kit Personalizado:\nDiseñado solo para ti,\ncomodidad y seguridad.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(9).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Te recibimos con atención especial,\n¡te lo mereces!',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Image.asset(
-                      'assets/images/Diseo_sin_ttulo_(10).png',
-                      width: 200.0,
-                      height: 150.0,
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    'Mientras te atendemos,\nconoceras los beneficios\nde nuestro servicio.',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Red Hat Display',
-                          color: FlutterFlowTheme.of(context).info,
-                          fontSize: 16.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.w600,
-                        ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ].divide(const SizedBox(width: 0.0)),
-    ).animateOnPageLoad(animationsMap['rowOnPageLoadAnimation']!);
+          ),
+          const SizedBox(height: 10.0),
+          Text(
+            text,
+            textAlign: TextAlign.center,
+            style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  fontFamily: 'Red Hat Display',
+                  color: FlutterFlowTheme.of(context).info,
+                  fontSize: 16.0,
+                  letterSpacing: 0.0,
+                  fontWeight: FontWeight.w600,
+                ),
+          ),
+        ],
+      ),
+    );
   }
 }
