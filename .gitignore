@@ -1,0 +1,27 @@
+# Archivos y carpetas generados por Flutter
+.dart-tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.env
+/build/
+
+# Archivos de configuración local
+.idea/
+*.iml
+*.lock
+*.log
+*.json
+*.DS_Store
+
+# Archivos específicos de Android e iOS (no necesarios para web)
+/android/
+/ios/
+
+# Archivos de dependencias (opcional, si no quieres bloquear versiones)
+/pubspec.lock
+
+# Archivos de prueba (opcional, si no quieres subir los tests)
+/test/
