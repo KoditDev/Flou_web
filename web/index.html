@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Alternatively, build your application passing the --base-href parameter
+    specifying the new root path of your web app.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="FLOU">
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Flou, Belleza,mani,pedi,menicura,pedicura uñas, pestañas, cejas, masajes, depilación, tratamiento, piel, salud, bienestar, estilo, oasis, Caracas, Venezuela">
+<meta name="author" content="FLOU">
+
+
+  
+
+  <!-- Favicon -->
+  <link rel="icon" href="OndaModernBlue_(1).svg" sizes="any"/>
+  
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="Flou: Salón de Belleza en Caracas | Manicura, Pedicura y más" />
+  <meta property="og:description" content="Salón de Belleza profesional Flou en Caracas Venezuela" />
+  <meta property="og:image" content="/assets/assets/images/FLOUamarillo.svg" /> 
+  <meta name="twitter:title" content="Flou: Salón de Belleza en Caracas | Manicura, Pedicura y más" />
+  <meta name="twitter:description" content="Salón de Belleza profesional Flou en Caracas Venezuela" />
+  <meta name="twitter:image" content="/assets/assets/images/FLOUamarillo.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> Flou: Salón de Belleza en Caracas | Manicura, Pedicura y más </title>
+  <meta name="description" content="Salón de Belleza profesional Flou en Caracas Venezuela" />
+    
+
+  <!-- Status Bar color in Safari browser (iOS) and PWA -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#000000">
+
+  <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+  
+  
+    <script src='https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.min.mjs' type='module'></script>
+  <script type='module'>
+  var { pdfjsLib } = globalThis;
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.mjs';
+
+  var pdfRenderOptions = {
+    cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/cmaps/',
+    cMapPacked: true,
+  }
+  </script>
+        
+  
+  
+  <script>
+    {{flutter_bootstrap_js}}
+  </script>
+</body>
+</html>
