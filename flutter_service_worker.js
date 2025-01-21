@@ -134,7 +134,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "14504910082d346af9047e31038e8261
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "9e5a4723f7de6863adef4475f8577848",
 "/": "9e5a4723f7de6863adef4475f8577848",
-"main.dart.js": "02e12714dd82c597d546a3e3c3564f82",
+"main.dart.js": "9185647cc8f3b8bf8943bc6e198ddbb6",
 "OndaModernBlue_(1).svg": "4190291e5b1cf6f5ea36a52dd0b94924",
 "version.json": "703c185fa33346088d6791ce16dfff20"};
 // The application shell files that are downloaded before a service worker can
