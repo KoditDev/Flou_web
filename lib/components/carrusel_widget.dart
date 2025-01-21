@@ -171,16 +171,22 @@ class _CarruselWidgetState extends State<CarruselWidget>
               fit: BoxFit.contain,
             ),
           ),
-          Text(
-            text,
-            textAlign: TextAlign.center,
-            style: FlutterFlowTheme.of(context).bodyMedium.override(
-                  fontFamily: 'Red Hat Display',
-                  color: FlutterFlowTheme.of(context).info,
-                  fontSize: 16.0,
-                  letterSpacing: 0.0,
-                  fontWeight: FontWeight.w600,
-                ),
+          const SizedBox(height: 10.0), // Espacio entre la imagen y el texto
+          SizedBox(
+            width: 200.0, // Ancho fijo para el texto
+            child: Text(
+              text,
+              textAlign: TextAlign.center,
+              style: FlutterFlowTheme.of(context).bodyMedium.override(
+                    fontFamily: 'Red Hat Display',
+                    color: FlutterFlowTheme.of(context).info,
+                    fontSize: 16.0,
+                    letterSpacing: 0.0,
+                    fontWeight: FontWeight.w600,
+                  ),
+              maxLines: 3, // Máximo de líneas para el texto
+              overflow: TextOverflow.ellipsis, // Puntos suspensivos si el texto es muy largo
+            ),
           ),
         ],
       ),
