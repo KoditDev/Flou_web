@@ -73,11 +73,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
             ),
           ),
         ),
-        FFRoute(
-          name: 'Warrantypolicy',
-          path: '/warrantypolicy',
-          builder: (context, params) => const WarrantypolicyWidget(),
-        ),
+        // FFRoute(
+        //   name: 'Warrantypolicy',
+        //   path: '/warrantypolicy',
+        //   builder: (context, params) => const WarrantypolicyWidget(),
+        // ),
         FFRoute(
           name: 'prueba',
           path: '/prueba',

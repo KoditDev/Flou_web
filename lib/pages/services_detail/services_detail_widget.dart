@@ -404,27 +404,6 @@ class _ServicesDetailWidgetState extends State<ServicesDetailWidget>
                       );
                     },
                   ),
-                  if ((widget.serviceID == 1) || (widget.serviceID == 2))
-                    InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        context.pushNamed('Warrantypolicy');
-                      },
-                      child: Text(
-                        'Ver políticas de garantía',
-                        textAlign: TextAlign.start,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Red Hat Display',
-                              color: FlutterFlowTheme.of(context).modernBlue,
-                              fontSize: 15.0,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.w500,
-                            ),
-                      ),
-                    ),
                 ],
               ),
             ),

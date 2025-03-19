@@ -1,23 +1,19 @@
-2025/01/21-00:56:11.788 37ec Log #3: 1 ops saved to Table #26 OK
-2025/01/21-00:56:11.792 37ec Archiving C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/000003.log: OK
-2025/01/21-00:56:11.795 37ec Log #6: 2 ops saved to Table #27 OK
-2025/01/21-00:56:11.797 37ec Archiving C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/000006.log: OK
-2025/01/21-00:56:11.797 37ec Log #10: 0 ops saved to Table #28 OK
-2025/01/21-00:56:11.798 37ec Archiving C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/000010.log: OK
-2025/01/21-00:56:11.801 37ec Log #15: 1 ops saved to Table #29 OK
-2025/01/21-00:56:11.802 37ec Archiving C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/000015.log: OK
-2025/01/21-00:56:11.803 37ec Log #23: 0 ops saved to Table #30 OK
-2025/01/21-00:56:11.804 37ec Archiving C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/000023.log: OK
-2025/01/21-00:56:11.804 37ec Table #4: 1 entries OK
-2025/01/21-00:56:11.804 37ec Table #6: 1 entries OK
-2025/01/21-00:56:11.805 37ec Table #7: 1 entries OK
-2025/01/21-00:56:11.805 37ec Table #8: 2 entries OK
-2025/01/21-00:56:11.805 37ec Table #16: 1 entries OK
-2025/01/21-00:56:11.805 37ec Table #17: 1 entries OK
-2025/01/21-00:56:11.805 37ec Table #24: 1 entries OK
-2025/01/21-00:56:11.805 37ec Table #25: 1 entries OK
-2025/01/21-00:56:11.805 37ec Table #26: 1 entries OK
-2025/01/21-00:56:11.806 37ec Table #27: 2 entries OK
-2025/01/21-00:56:11.806 37ec Table #29: 1 entries OK
-2025/01/21-00:56:11.809 37ec Archiving C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database/MANIFEST-000001: OK
-2025/01/21-00:56:11.815 37ec **** Repaired leveldb C:\Users\johnd\AppData\Local\Temp\flutter_tools.f94f4e9a\flutter_tools_chrome_device.4c6e5be\Default\Site Characteristics Database; recovered 11 files; 1661 bytes. Some data may have been lost. ****
+2025/03/18-22:45:11.814 5be8 Reusing MANIFEST C:\Users\johnd\AppData\Local\Temp\flutter_tools.8b7a075f\flutter_tools_chrome_device.8257f78c\Default\Site Characteristics Database/MANIFEST-000001
+2025/03/18-22:45:11.821 5be8 Recovering log #42
+2025/03/18-22:45:11.821 5be8 Reusing old log C:\Users\johnd\AppData\Local\Temp\flutter_tools.8b7a075f\flutter_tools_chrome_device.8257f78c\Default\Site Characteristics Database/000042.log 
+2025/03/18-22:45:11.822 5be8 Delete type=0 #3
+2025/03/18-22:45:11.822 5be8 Delete type=2 #4
+2025/03/18-22:45:11.822 5be8 Delete type=2 #6
+2025/03/18-22:45:11.823 5be8 Delete type=0 #6
+2025/03/18-22:45:11.823 5be8 Delete type=2 #7
+2025/03/18-22:45:11.823 5be8 Delete type=2 #8
+2025/03/18-22:45:11.823 5be8 Delete type=0 #10
+2025/03/18-22:45:11.823 5be8 Delete type=0 #15
+2025/03/18-22:45:11.823 5be8 Delete type=2 #16
+2025/03/18-22:45:11.823 5be8 Delete type=2 #17
+2025/03/18-22:45:11.823 5be8 Delete type=0 #23
+2025/03/18-22:45:11.823 5be8 Delete type=2 #24
+2025/03/18-22:45:11.823 5be8 Delete type=2 #25
+2025/03/18-22:45:11.823 5be8 Delete type=0 #32
+2025/03/18-22:45:11.823 5be8 Delete type=2 #33
+2025/03/18-22:45:11.824 5be8 Delete type=2 #34
